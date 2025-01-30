@@ -1,8 +1,9 @@
-<h1 align="center">Hi 👋, I'm Andre Masalle</h1>
-<h3 align="center"> Just an Software Engineer Student with some coding and math hobbies</h3>
-
-
-<h3 align="left">Languages, Tools and Libraries that i used:</h3>
+<h1 align="center">Welcome Visitors! 👋</h1>
+<h4 align="center"> I am just an ordinary Software Engineer Student with some math hobbies and interests on codings</h3>
+<br>
+<br>
+<br>
+<h4 align="left">Languages, Tools and Libraries that i used:</h4>
 <p align="left"> 
 <!-- MySQL -->
 <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> 
