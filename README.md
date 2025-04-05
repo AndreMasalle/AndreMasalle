@@ -1,35 +1,36 @@
 <h1 align="center">Welcome Visitors! 👋</h1>
-<h4 align="center"> I am just an ordinary Software Engineer Student with some math hobbies and interests on codings</h3>
-<br>
-<br>
-<br>
-<h4 align="left">Languages, Tools and Libraries that i used:</h4>
-<p align="left"> 
-<!-- MySQL -->
-<a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> 
-<!-- OpenCV -->
-<a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> 
-<!-- PostgreSQL -->
-<a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> 
-<!-- Python -->
-<a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> 
-<!-- Torch -->
-<a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> 
-<!-- Seaborn -->
-<a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
-<!-- Gensim -->
-<a href="https://radimrehurek.com/gensim/" target="_blank" rel="noreferrer"> 
-  <img src="https://raw.githubusercontent.com/RaRe-Technologies/gensim/master/docs/src/readme_images/rare.png" alt="gensim" width="40" height="40"/> 
-</a> 
-<!-- NLTK -->
-<a href="https://www.nltk.org/" target="_blank" rel="noreferrer"> 
-  <img src="https://keepcoding.io/wp-content/uploads/2023/02/image-85.png" alt="nltk" width="40" height="40"/> 
-</a>
-<!-- YOLO -->
-<a href="https://pjreddie.com/darknet/yolo/" target="_blank" rel="noreferrer"> 
-  <img src="https://assets.website-files.com/5f6bc60e665f54db361e52a9/5f6bc60e665f546a6b1e5400_logo_yolo.png" alt="yolo" width="40" height="40"/> 
-</a>
-<!-- Flask -->
-<a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> 
-  <img src="https://th.bing.com/th/id/OIP.tZKxFU0lwHLBBNMxk53WfAHaJh?rs=1&pid=ImgDetMain" alt="flask" width="40" height="40"/> 
-</a>
+<h3 align="center">Software Engineering Student | ML Enthusiast</h3>
+
+<div align="center">
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="300" alt="Deep Learning">
+</div>
+
+## 🔭 Current Journey
+- 🎓 Pursuing Software Engineering degree
+- 🤖 Exploring the intersection of math and machine learning
+- 📊 Falling in love with data patterns and algorithms
+
+## 🔧 Core Stack
+<p align="left">
+  <a href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/Python-Expert-3776AB?logo=python&logoColor=white" alt="Python"></a>
+  <a href="https://pytorch.org/" target="_blank"><img src="https://img.shields.io/badge/PyTorch-Research%20%26%20Production-EE4C2C?logo=pytorch" alt="PyTorch"></a>
+  <a href="https://www.tensorflow.org/" target="_blank"><img src="https://img.shields.io/badge/TensorFlow-Large%20Scale%20Models-FF6F00?logo=tensorflow" alt="TensorFlow"></a>
+  <a href="https://opencv.org/" target="_blank"><img src="https://img.shields.io/badge/OpenCV-Real%20Time%20Vision-5C3EE8?logo=opencv" alt="OpenCV"></a>
+  <a href="https://www.docker.com/" target="_blank"><img src="https://img.shields.io/badge/Docker-Containerization-2496ED?logo=docker" alt="Docker"></a>
+  <a href="https://www.postgresql.org/" target="_blank"><img src="https://img.shields.io/badge/PostgreSQL-High%20Performance-4169E1?logo=postgresql" alt="PostgreSQL"></a>
+  <a href="https://spark.apache.org/" target="_blank"><img src="https://img.shields.io/badge/Spark-Big%20Data-E25A1C?logo=apachespark" alt="Spark"></a>
+</p>
+
+## 🌱 Currently Exploring
+- Computer Vision architectures
+- Mathematical foundations of ML
+- Efficient algorithm design
+
+<div align="center">
+  
+```python
+def solve_problem(complexity):
+    while not solution:
+        research()
+        experiment()
+    return innovation
