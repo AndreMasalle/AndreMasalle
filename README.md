@@ -2,7 +2,7 @@
 <h3 align="center">Informatics Student | ML Enthusiast</h3>
 
 <div align="center">
-  <img src="https://cdnb.artstation.com/p/assets/images/images/025/394/341/original/mark-kolobaev-ezgif-com-optimize-1.gif" width="500" alt="Ghost Ship Rising from the Fog">
+  <img src="https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUyc25tcWJnY25lZDVjdzA1cHB4aWRudW9haXBjOTVkNGx0Ym5iZmRkYiZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/3Mpd7yNwqkw6y5RUaC/giphy.gif" width="500" alt="Ghost Ship Rising from the Fog">
 </div>
 
 <h4 align="center"><i>"Only willpower can conquer the seas."</i></h4>
