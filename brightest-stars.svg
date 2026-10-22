@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="412" viewBox="0 0 900 412">
+<defs>
+<linearGradient id="pbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a0e26"/><stop offset=".55" stop-color="#0d1033"/><stop offset="1" stop-color="#140d2e"/></linearGradient>
+<radialGradient id="b1"><stop offset="0" stop-color="#4f56d6" stop-opacity=".45"/><stop offset="1" stop-color="#4f56d6" stop-opacity="0"/></radialGradient>
+<radialGradient id="b2"><stop offset="0" stop-color="#a855f7" stop-opacity=".30"/><stop offset="1" stop-color="#a855f7" stop-opacity="0"/></radialGradient>
+<radialGradient id="b3"><stop offset="0" stop-color="#14b8a6" stop-opacity=".28"/><stop offset="1" stop-color="#14b8a6" stop-opacity="0"/></radialGradient>
+</defs>
+<clipPath id="pc"><rect width="900" height="412" rx="18"/></clipPath>
+<g clip-path="url(#pc)">
+<rect width="900" height="412" fill="url(#pbg)"/>
+<ellipse cx="120" cy="40" rx="260" ry="150" fill="url(#b1)"/>
+<ellipse cx="820" cy="227" rx="260" ry="170" fill="url(#b2)"/>
+<ellipse cx="450" cy="412" rx="300" ry="110" fill="url(#b3)"/>
+<g font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace">
+<text x="28" y="46" font-size="11" letter-spacing="3" fill="#818cf8">PROJECTS.LIST</text>
+<text x="170" y="46" font-size="11" fill="#6b74b8">./projects.sh --all</text>
+<text x="872" y="46" font-size="11" fill="#818cf8" text-anchor="end">4 projects</text>
+<line x1="28" y1="58" x2="872" y2="58" stroke="#4f56b8" stroke-opacity=".6"/>
+<g transform="translate(28 82)">
+<rect width="414" height="142" rx="12" fill="#0a0d2a" fill-opacity=".85" stroke="#3b4290"><animate attributeName="stroke-opacity" values=".6;1;.6" dur="4s" repeatCount="indefinite"/></rect>
+<text x="16" y="24" font-size="9" fill="#8089d6">• Cloud-Computing-Tasks</text>
+<text x="16" y="56" font-size="17" font-weight="700" fill="#eef0ff">Cloud-Computing-Tasks<tspan fill="#818cf8"><animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/> _</tspan></text>
+<text x="16" y="78" font-size="10" fill="#aab2f0">No description provided.</text>
+<rect x="16" y="90" width="60" height="18" rx="9" fill="#1b2150" stroke="#4f56b8" stroke-opacity=".7"/>
+<text x="46" y="102" font-size="9" fill="#c7cdfa" text-anchor="middle">Python</text>
+<text x="16" y="126" font-size="10" fill="#c7cdfa"><tspan fill="#60a5fa">★</tspan> 0   <tspan fill="#6b74b8">updated 1d ago</tspan></text>
+<g transform="translate(354 71) rotate(-90)">
+<circle r="26" fill="none" stroke="#1e2350" stroke-width="7"/>
+<circle r="26" fill="none" stroke="#60a5fa" stroke-width="7" stroke-linecap="round" stroke-dasharray="163.36" stroke-dashoffset="14.70"><animate attributeName="stroke-dashoffset" from="163.36" to="14.70" dur="1.6s" fill="freeze"/></circle>
+</g>
+<text x="354" y="74" font-size="10" font-weight="700" fill="#fff" text-anchor="middle">91%</text>
+</g>
+<g transform="translate(458 82)">
+<rect width="414" height="142" rx="12" fill="#0a0d2a" fill-opacity=".85" stroke="#3b4290"><animate attributeName="stroke-opacity" values=".6;1;.6" dur="5s" repeatCount="indefinite"/></rect>
+<text x="16" y="24" font-size="9" fill="#8089d6">• ONMIPA-Coach</text>
+<text x="16" y="56" font-size="17" font-weight="700" fill="#eef0ff">ONMIPA-Coach<tspan fill="#818cf8"><animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/> _</tspan></text>
+<text x="16" y="78" font-size="10" fill="#aab2f0">No description provided.</text>
+<rect x="16" y="90" width="54" height="18" rx="9" fill="#1b2150" stroke="#4f56b8" stroke-opacity=".7"/>
+<text x="43" y="102" font-size="9" fill="#c7cdfa" text-anchor="middle">Shell</text>
+<text x="16" y="126" font-size="10" fill="#c7cdfa"><tspan fill="#86efac">★</tspan> 0   <tspan fill="#6b74b8">updated 2d ago</tspan></text>
+<g transform="translate(354 71) rotate(-90)">
+<circle r="26" fill="none" stroke="#1e2350" stroke-width="7"/>
+<circle r="26" fill="none" stroke="#86efac" stroke-width="7" stroke-linecap="round" stroke-dasharray="163.36" stroke-dashoffset="70.25"><animate attributeName="stroke-dashoffset" from="163.36" to="70.25" dur="1.6s" fill="freeze"/></circle>
+</g>
+<text x="354" y="74" font-size="10" font-weight="700" fill="#fff" text-anchor="middle">57%</text>
+</g>
+<g transform="translate(28 240)">
+<rect width="414" height="142" rx="12" fill="#0a0d2a" fill-opacity=".85" stroke="#3b4290"><animate attributeName="stroke-opacity" values=".6;1;.6" dur="6s" repeatCount="indefinite"/></rect>
+<text x="16" y="24" font-size="9" fill="#8089d6">• CONAN-Recommender-System</text>
+<text x="16" y="56" font-size="17" font-weight="700" fill="#eef0ff">CONAN-Recommender-System<tspan fill="#818cf8"><animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/> _</tspan></text>
+<text x="16" y="78" font-size="10" fill="#aab2f0">No description provided.</text>
+<rect x="16" y="90" width="92" height="18" rx="9" fill="#1b2150" stroke="#4f56b8" stroke-opacity=".7"/>
+<text x="62" y="102" font-size="9" fill="#c7cdfa" text-anchor="middle">No language</text>
+<text x="16" y="126" font-size="10" fill="#c7cdfa"><tspan fill="#94a3b8">★</tspan> 0   <tspan fill="#6b74b8">updated 9d ago</tspan></text>
+<g transform="translate(354 71) rotate(-90)">
+<circle r="26" fill="none" stroke="#1e2350" stroke-width="7"/>
+<circle r="26" fill="none" stroke="#94a3b8" stroke-width="7" stroke-linecap="round" stroke-dasharray="163.36" stroke-dashoffset="0.00"><animate attributeName="stroke-dashoffset" from="163.36" to="0.00" dur="1.6s" fill="freeze"/></circle>
+</g>
+<text x="354" y="74" font-size="10" font-weight="700" fill="#fff" text-anchor="middle">100%</text>
+</g>
+<g transform="translate(458 240)">
+<rect width="414" height="142" rx="12" fill="#0a0d2a" fill-opacity=".85" stroke="#3b4290"><animate attributeName="stroke-opacity" values=".6;1;.6" dur="7s" repeatCount="indefinite"/></rect>
+<text x="16" y="24" font-size="9" fill="#8089d6">• LLM-Application-Experiment</text>
+<text x="16" y="56" font-size="17" font-weight="700" fill="#eef0ff">LLM-Application-Experim…<tspan fill="#818cf8"><animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/> _</tspan></text>
+<text x="16" y="78" font-size="10" fill="#aab2f0">No description provided.</text>
+<rect x="16" y="90" width="124" height="18" rx="9" fill="#1b2150" stroke="#4f56b8" stroke-opacity=".7"/>
+<text x="78" y="102" font-size="9" fill="#c7cdfa" text-anchor="middle">Jupyter Notebook</text>
+<text x="16" y="126" font-size="10" fill="#c7cdfa"><tspan fill="#f97316">★</tspan> 0   <tspan fill="#6b74b8">updated 9d ago</tspan></text>
+<g transform="translate(354 71) rotate(-90)">
+<circle r="26" fill="none" stroke="#1e2350" stroke-width="7"/>
+<circle r="26" fill="none" stroke="#f97316" stroke-width="7" stroke-linecap="round" stroke-dasharray="163.36" stroke-dashoffset="0.00"><animate attributeName="stroke-dashoffset" from="163.36" to="0.00" dur="1.6s" fill="freeze"/></circle>
+</g>
+<text x="354" y="74" font-size="10" font-weight="700" fill="#fff" text-anchor="middle">100%</text>
+</g>
+</g>
+<rect x=".5" y=".5" width="899" height="411" rx="18" fill="none" stroke="#4f56b8" stroke-opacity=".6"/>
+</g>
+</svg>
