@@ -2,7 +2,7 @@
 """Generate 'brightest-stars.svg' (top repos) and 'elements.svg' (from elements.json).
 Pure standard library. Usage: python scripts/generate_panels.py [username]
 Run from the repo root. Needs scripts/generate_galaxy.py next to it."""
-import html, json, math, os, sys
+import html, json, math, os, random, sys
 from datetime import datetime, timezone
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import generate_galaxy as gg
@@ -39,7 +39,46 @@ DEFS = '''<defs>
 <radialGradient id="b1"><stop offset="0" stop-color="#4f56d6" stop-opacity=".45"/><stop offset="1" stop-color="#4f56d6" stop-opacity="0"/></radialGradient>
 <radialGradient id="b2"><stop offset="0" stop-color="#a855f7" stop-opacity=".30"/><stop offset="1" stop-color="#a855f7" stop-opacity="0"/></radialGradient>
 <radialGradient id="b3"><stop offset="0" stop-color="#14b8a6" stop-opacity=".28"/><stop offset="1" stop-color="#14b8a6" stop-opacity="0"/></radialGradient>
+<filter id="glw" x="-10%" y="-40%" width="120%" height="180%"><feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<linearGradient id="trail" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#e0e7ff" stop-opacity="0"/><stop offset="1" stop-color="#e0e7ff" stop-opacity="1"/></linearGradient>
+<linearGradient id="scan" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#818cf8" stop-opacity="0"/><stop offset="1" stop-color="#818cf8" stop-opacity=".16"/></linearGradient>
 </defs>'''
+
+def backdrop(W, H):
+    """Animated background: drifting aurora, 3-layer parallax starfield, rare shooting stars."""
+    rnd = random.Random(11)
+    def glow(grad, cx, cy, rx, ry, dx, dy, dur):
+        return (f'<ellipse cx="{cx}" cy="{cy}" rx="{rx}" ry="{ry}" fill="url(#{grad})">'
+                f'<animateTransform attributeName="transform" type="translate" values="0 0;{dx} {dy};0 0" dur="{dur}s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1" keyTimes="0;.5;1"/></ellipse>')
+    def layer(n, radii, dur, opacity, twinkle):
+        pts = [(rnd.uniform(4, W - 4), rnd.uniform(6, H - 6), rnd.choice(radii),
+                rnd.choice(["#cbd5ff", "#cbd5ff", "#a5b4fc", "#fdba74", "#7dd3fc"]),
+                rnd.uniform(3, 8), rnd.uniform(0, 8)) for _ in range(n)]
+        out = []
+        for shift in (0, W):                      # duplicate so the loop is seamless
+            for x, y, r, c, d, b in pts:
+                tw = (f'<animate attributeName="opacity" values="0.25;1;0.25" dur="{d:.1f}s" begin="-{b:.1f}s" repeatCount="indefinite"/>' if twinkle else "")
+                out.append(f'<circle cx="{x + shift:.0f}" cy="{y:.0f}" r="{r}" fill="{c}">{tw}</circle>')
+        return (f'<g opacity="{opacity}"><animateTransform attributeName="transform" type="translate" from="0 0" to="{-W} 0" dur="{dur}s" repeatCount="indefinite"/>'
+                + "".join(out) + '</g>')
+    def shooting(x0, y0, x1, y1, dur, beg):
+        dx, dy = x1 - x0, y1 - y0
+        L = math.hypot(dx, dy)
+        tx, ty = -dx / L * 36, -dy / L * 36
+        return (f'<g opacity="0"><line x1="{tx:.1f}" y1="{ty:.1f}" x2="0" y2="0" stroke="url(#trail)" stroke-width="1.4" stroke-linecap="round"/><circle r="1.7" fill="#fff"/>'
+                f'<animateMotion dur="{dur}s" begin="{beg}s" repeatCount="indefinite" path="M {x0:.0f},{y0:.0f} L {x1:.0f},{y1:.0f}" keyPoints="0;1;1" keyTimes="0;0.08;1" calcMode="linear"/>'
+                f'<animate attributeName="opacity" dur="{dur}s" begin="{beg}s" repeatCount="indefinite" values="0;1;1;0;0" keyTimes="0;.01;.06;.08;1"/></g>')
+    area = W * H
+    return "\n".join([
+        glow("b1", 120, 40, 260, 150, 140, 40, 16),
+        glow("b2", W - 80, int(H * 0.55), 260, 170, -150, -30, 20),
+        glow("b3", int(W * 0.5), H, 300, 110, 120, -25, 18),
+        layer(int(area / 9000), [0.5, 0.6], 170, 0.55, False),   # far: tiny, slow
+        layer(int(area / 14000), [0.8, 1.0], 105, 0.8, True),     # mid
+        layer(int(area / 30000), [1.3, 1.6], 62, 1.0, True),      # near: bigger, faster
+        shooting(W * 0.08, H * 0.10, W * 0.34, H * 0.55, 13, 4),
+        shooting(W * 0.92, H * 0.06, W * 0.66, H * 0.50, 19, 11),
+    ])
 
 def frame(W, H, body):
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">
@@ -47,9 +86,7 @@ def frame(W, H, body):
 <clipPath id="pc"><rect width="{W}" height="{H}" rx="18"/></clipPath>
 <g clip-path="url(#pc)">
 <rect width="{W}" height="{H}" fill="url(#pbg)"/>
-<ellipse cx="120" cy="40" rx="260" ry="150" fill="url(#b1)"/>
-<ellipse cx="{W-80}" cy="{H*0.55:.0f}" rx="260" ry="170" fill="url(#b2)"/>
-<ellipse cx="{W*0.5:.0f}" cy="{H}" rx="300" ry="110" fill="url(#b3)"/>
+{backdrop(W, H)}
 <g font-family="{MONO}">
 {body}
 </g>
@@ -77,8 +114,11 @@ def build_projects(repos, pcts):
         fs = max(10.5, min(17, 280 / (0.61 * max(len(r["name"]), 1))))   # shrink long names to fit
         desc = trunc(r.get("description") or "No description provided.", 44)
         pw = len(lang) * 6.4 + 22
+        per = 2 * (CW + CH - 4 * 12) + 2 * math.pi * 12          # card border length
+        pd = (per * 0.11, per * 0.89, per)
         b.append(f'''<g transform="translate({x} {y})">
 <rect width="{CW}" height="{CH}" rx="12" fill="#0a0d2a" fill-opacity=".85" stroke="#3b4290"><animate attributeName="stroke-opacity" values=".6;1;.6" dur="{4+i}s" repeatCount="indefinite"/></rect>
+<rect width="{CW}" height="{CH}" rx="12" fill="none" stroke="{c}" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="{pd[0]:.1f} {pd[1]:.1f}" filter="url(#glw)"><animate attributeName="stroke-dashoffset" from="0" to="{-pd[2]:.1f}" dur="{7+i}s" begin="-{i*2.3:.1f}s" repeatCount="indefinite"/></rect>
 <text x="16" y="24" font-size="9" fill="#8089d6">• {esc(trunc(r["name"], 50))}</text>
 <text x="16" y="56" font-size="{fs:.1f}" font-weight="700" fill="#eef0ff">{esc(trunc(r["name"], 44))}<tspan fill="#818cf8"><animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/> _</tspan></text>
 <text x="16" y="78" font-size="10" fill="#aab2f0">{esc(desc)}</text>
@@ -111,7 +151,9 @@ def build_elements(cfg):
             if x + w > RIGHT:
                 x, line_y = 190, line_y + ROW
             d, bgn = 2 + (n % 5) * 0.7, (n % 7) * 0.6
+            cper = 2 * (w + 26 - 2 * 13) + 2 * math.pi * 13          # chip border length
             b.append(f'<g transform="translate({x:.0f} {line_y})"><rect width="{w:.0f}" height="26" rx="13" fill="#12173d" fill-opacity=".9" stroke="{col}" stroke-opacity=".55"/>'
+                     f'<rect width="{w:.0f}" height="26" rx="13" fill="none" stroke="{col}" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="{cper*0.16:.1f} {cper*0.84:.1f}" filter="url(#glw)"><animate attributeName="stroke-dashoffset" from="0" to="{-cper:.1f}" dur="{4+(n%4)}s" begin="-{(n*0.9)%6:.1f}s" repeatCount="indefinite"/></rect>'
                      f'<circle cx="15" cy="13" r="4" fill="{col}"><animate attributeName="opacity" values=".4;1;.4" dur="{d:.1f}s" begin="-{bgn:.1f}s" repeatCount="indefinite"/></circle>'
                      f'<text x="28" y="17" font-size="12" fill="#e0e7ff">{esc(name)}</text></g>')
             x += w + 10
