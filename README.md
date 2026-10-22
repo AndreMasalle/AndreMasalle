@@ -1,6 +1,6 @@
 <h1 align="center">AndreMasalle</h1>
 
-<p align="center">Backend or systems engineer</p>
+<p align="center">Informatics Student | AI Enthusiast</p>
 
 <p align="center">
   <img src="./repo-galaxy.svg" alt="Repo Galaxy – @andremasalle" width="100%" />
