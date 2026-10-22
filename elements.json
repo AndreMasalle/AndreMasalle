@@ -6,24 +6,29 @@
       "name": "Languages",
       "items": [
         { "name": "Python", "color": "#60a5fa" },
-        { "name": "R", "color": "#34d399" },
         { "name": "SQL", "color": "#f59e0b" }
       ]
     },
     {
       "name": "Tools",
       "items": [
-        { "name": "Jupyter", "color": "#f97316" },
+        { "name": "Jupyter Notebook", "color": "#f97316" },
         { "name": "Git", "color": "#fb7185" },
-        { "name": "GitHub", "color": "#a78bfa" }
+        { "name": "GitHub", "color": "#a78bfa" },
+        { "name": "Flask", "color": "#e2e8f0" },
+        { "name": "FastAPI", "color": "#34d399" }
       ]
     },
     {
       "name": "Libraries",
       "items": [
-        { "name": "Pandas", "color": "#818cf8" },
-        { "name": "NumPy", "color": "#38bdf8" },
-        { "name": "scikit-learn", "color": "#fbbf24" }
+        { "name": "PyTorch", "color": "#ee4c2c" },
+        { "name": "TorchVision", "color": "#f472b6" },
+        { "name": "scikit-learn", "color": "#fbbf24" },
+        { "name": "HuggingFace", "color": "#facc15" },
+        { "name": "LangChain", "color": "#2dd4bf" },
+        { "name": "pandas", "color": "#818cf8" },
+        { "name": "NumPy", "color": "#38bdf8" }
       ]
     }
   ]
