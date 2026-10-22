@@ -1,16 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="258" viewBox="0 0 900 258">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="294" viewBox="0 0 900 294">
 <defs>
 <linearGradient id="pbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a0e26"/><stop offset=".55" stop-color="#0d1033"/><stop offset="1" stop-color="#140d2e"/></linearGradient>
 <radialGradient id="b1"><stop offset="0" stop-color="#4f56d6" stop-opacity=".45"/><stop offset="1" stop-color="#4f56d6" stop-opacity="0"/></radialGradient>
 <radialGradient id="b2"><stop offset="0" stop-color="#a855f7" stop-opacity=".30"/><stop offset="1" stop-color="#a855f7" stop-opacity="0"/></radialGradient>
 <radialGradient id="b3"><stop offset="0" stop-color="#14b8a6" stop-opacity=".28"/><stop offset="1" stop-color="#14b8a6" stop-opacity="0"/></radialGradient>
 </defs>
-<clipPath id="pc"><rect width="900" height="258" rx="18"/></clipPath>
+<clipPath id="pc"><rect width="900" height="294" rx="18"/></clipPath>
 <g clip-path="url(#pc)">
-<rect width="900" height="258" fill="url(#pbg)"/>
+<rect width="900" height="294" fill="url(#pbg)"/>
 <ellipse cx="120" cy="40" rx="260" ry="150" fill="url(#b1)"/>
-<ellipse cx="820" cy="142" rx="260" ry="170" fill="url(#b2)"/>
-<ellipse cx="450" cy="258" rx="300" ry="110" fill="url(#b3)"/>
+<ellipse cx="820" cy="162" rx="260" ry="170" fill="url(#b2)"/>
+<ellipse cx="450" cy="294" rx="300" ry="110" fill="url(#b3)"/>
 <g font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace">
 <text x="28" y="46" font-size="20" font-weight="700" fill="#eef0ff">Stack</text>
 <text x="28" y="66" font-size="11" fill="#a5b4fc">Tools, languages &amp; things I work with</text>
@@ -18,17 +18,22 @@
 <line x1="28" y1="82" x2="872" y2="82" stroke="#4f56b8" stroke-opacity=".6"/>
 <text x="28" y="121" font-size="10" letter-spacing="3" fill="#6b74b8">LANGUAGES</text>
 <g transform="translate(190 104)"><rect width="84" height="26" rx="13" fill="#12173d" fill-opacity=".9" stroke="#60a5fa" stroke-opacity=".55"/><circle cx="15" cy="13" r="4" fill="#60a5fa"><animate attributeName="opacity" values=".4;1;.4" dur="2.0s" begin="-0.0s" repeatCount="indefinite"/></circle><text x="28" y="17" font-size="12" fill="#e0e7ff">Python</text></g>
-<g transform="translate(284 104)"><rect width="47" height="26" rx="13" fill="#12173d" fill-opacity=".9" stroke="#34d399" stroke-opacity=".55"/><circle cx="15" cy="13" r="4" fill="#34d399"><animate attributeName="opacity" values=".4;1;.4" dur="2.7s" begin="-0.6s" repeatCount="indefinite"/></circle><text x="28" y="17" font-size="12" fill="#e0e7ff">R</text></g>
-<g transform="translate(341 104)"><rect width="62" height="26" rx="13" fill="#12173d" fill-opacity=".9" stroke="#f59e0b" stroke-opacity=".55"/><circle cx="15" cy="13" r="4" fill="#f59e0b"><animate attributeName="opacity" values=".4;1;.4" dur="3.4s" begin="-1.2s" repeatCount="indefinite"/></circle><text x="28" y="17" font-size="12" fill="#e0e7ff">SQL</text></g>
+<g transform="translate(284 104)"><rect width="62" height="26" rx="13" fill="#12173d" fill-opacity=".9" stroke="#f59e0b" stroke-opacity=".55"/><circle cx="15" cy="13" r="4" fill="#f59e0b"><animate attributeName="opacity" values=".4;1;.4" dur="2.7s" begin="-0.6s" repeatCount="indefinite"/></circle><text x="28" y="17" font-size="12" fill="#e0e7ff">SQL</text></g>
 <text x="28" y="169" font-size="10" letter-spacing="3" fill="#6b74b8">TOOLS</text>
-<g transform="translate(190 152)"><rect width="91" height="26" rx="13" fill="#12173d" fill-opacity=".9" stroke="#f97316" stroke-opacity=".55"/><circle cx="15" cy="13" r="4" fill="#f97316"><animate attributeName="opacity" values=".4;1;.4" dur="4.1s" begin="-1.8s" repeatCount="indefinite"/></circle><text x="28" y="17" font-size="12" fill="#e0e7ff">Jupyter</text></g>
-<g transform="translate(291 152)"><rect width="62" height="26" rx="13" fill="#12173d" fill-opacity=".9" stroke="#fb7185" stroke-opacity=".55"/><circle cx="15" cy="13" r="4" fill="#fb7185"><animate attributeName="opacity" values=".4;1;.4" dur="4.8s" begin="-2.4s" repeatCount="indefinite"/></circle><text x="28" y="17" font-size="12" fill="#e0e7ff">Git</text></g>
-<g transform="translate(363 152)"><rect width="84" height="26" rx="13" fill="#12173d" fill-opacity=".9" stroke="#a78bfa" stroke-opacity=".55"/><circle cx="15" cy="13" r="4" fill="#a78bfa"><animate attributeName="opacity" values=".4;1;.4" dur="2.0s" begin="-3.0s" repeatCount="indefinite"/></circle><text x="28" y="17" font-size="12" fill="#e0e7ff">GitHub</text></g>
+<g transform="translate(190 152)"><rect width="157" height="26" rx="13" fill="#12173d" fill-opacity=".9" stroke="#f97316" stroke-opacity=".55"/><circle cx="15" cy="13" r="4" fill="#f97316"><animate attributeName="opacity" values=".4;1;.4" dur="3.4s" begin="-1.2s" repeatCount="indefinite"/></circle><text x="28" y="17" font-size="12" fill="#e0e7ff">Jupyter Notebook</text></g>
+<g transform="translate(357 152)"><rect width="62" height="26" rx="13" fill="#12173d" fill-opacity=".9" stroke="#fb7185" stroke-opacity=".55"/><circle cx="15" cy="13" r="4" fill="#fb7185"><animate attributeName="opacity" values=".4;1;.4" dur="4.1s" begin="-1.8s" repeatCount="indefinite"/></circle><text x="28" y="17" font-size="12" fill="#e0e7ff">Git</text></g>
+<g transform="translate(429 152)"><rect width="84" height="26" rx="13" fill="#12173d" fill-opacity=".9" stroke="#a78bfa" stroke-opacity=".55"/><circle cx="15" cy="13" r="4" fill="#a78bfa"><animate attributeName="opacity" values=".4;1;.4" dur="4.8s" begin="-2.4s" repeatCount="indefinite"/></circle><text x="28" y="17" font-size="12" fill="#e0e7ff">GitHub</text></g>
+<g transform="translate(522 152)"><rect width="76" height="26" rx="13" fill="#12173d" fill-opacity=".9" stroke="#e2e8f0" stroke-opacity=".55"/><circle cx="15" cy="13" r="4" fill="#e2e8f0"><animate attributeName="opacity" values=".4;1;.4" dur="2.0s" begin="-3.0s" repeatCount="indefinite"/></circle><text x="28" y="17" font-size="12" fill="#e0e7ff">Flask</text></g>
+<g transform="translate(609 152)"><rect width="91" height="26" rx="13" fill="#12173d" fill-opacity=".9" stroke="#34d399" stroke-opacity=".55"/><circle cx="15" cy="13" r="4" fill="#34d399"><animate attributeName="opacity" values=".4;1;.4" dur="2.7s" begin="-3.6s" repeatCount="indefinite"/></circle><text x="28" y="17" font-size="12" fill="#e0e7ff">FastAPI</text></g>
 <text x="28" y="217" font-size="10" letter-spacing="3" fill="#6b74b8">LIBRARIES</text>
-<g transform="translate(190 200)"><rect width="84" height="26" rx="13" fill="#12173d" fill-opacity=".9" stroke="#818cf8" stroke-opacity=".55"/><circle cx="15" cy="13" r="4" fill="#818cf8"><animate attributeName="opacity" values=".4;1;.4" dur="2.7s" begin="-3.6s" repeatCount="indefinite"/></circle><text x="28" y="17" font-size="12" fill="#e0e7ff">Pandas</text></g>
-<g transform="translate(284 200)"><rect width="76" height="26" rx="13" fill="#12173d" fill-opacity=".9" stroke="#38bdf8" stroke-opacity=".55"/><circle cx="15" cy="13" r="4" fill="#38bdf8"><animate attributeName="opacity" values=".4;1;.4" dur="3.4s" begin="-0.0s" repeatCount="indefinite"/></circle><text x="28" y="17" font-size="12" fill="#e0e7ff">NumPy</text></g>
-<g transform="translate(370 200)"><rect width="128" height="26" rx="13" fill="#12173d" fill-opacity=".9" stroke="#fbbf24" stroke-opacity=".55"/><circle cx="15" cy="13" r="4" fill="#fbbf24"><animate attributeName="opacity" values=".4;1;.4" dur="4.1s" begin="-0.6s" repeatCount="indefinite"/></circle><text x="28" y="17" font-size="12" fill="#e0e7ff">scikit-learn</text></g>
+<g transform="translate(190 200)"><rect width="91" height="26" rx="13" fill="#12173d" fill-opacity=".9" stroke="#ee4c2c" stroke-opacity=".55"/><circle cx="15" cy="13" r="4" fill="#ee4c2c"><animate attributeName="opacity" values=".4;1;.4" dur="3.4s" begin="-0.0s" repeatCount="indefinite"/></circle><text x="28" y="17" font-size="12" fill="#e0e7ff">PyTorch</text></g>
+<g transform="translate(291 200)"><rect width="120" height="26" rx="13" fill="#12173d" fill-opacity=".9" stroke="#f472b6" stroke-opacity=".55"/><circle cx="15" cy="13" r="4" fill="#f472b6"><animate attributeName="opacity" values=".4;1;.4" dur="4.1s" begin="-0.6s" repeatCount="indefinite"/></circle><text x="28" y="17" font-size="12" fill="#e0e7ff">TorchVision</text></g>
+<g transform="translate(421 200)"><rect width="128" height="26" rx="13" fill="#12173d" fill-opacity=".9" stroke="#fbbf24" stroke-opacity=".55"/><circle cx="15" cy="13" r="4" fill="#fbbf24"><animate attributeName="opacity" values=".4;1;.4" dur="4.8s" begin="-1.2s" repeatCount="indefinite"/></circle><text x="28" y="17" font-size="12" fill="#e0e7ff">scikit-learn</text></g>
+<g transform="translate(559 200)"><rect width="120" height="26" rx="13" fill="#12173d" fill-opacity=".9" stroke="#facc15" stroke-opacity=".55"/><circle cx="15" cy="13" r="4" fill="#facc15"><animate attributeName="opacity" values=".4;1;.4" dur="2.0s" begin="-1.8s" repeatCount="indefinite"/></circle><text x="28" y="17" font-size="12" fill="#e0e7ff">HuggingFace</text></g>
+<g transform="translate(689 200)"><rect width="106" height="26" rx="13" fill="#12173d" fill-opacity=".9" stroke="#2dd4bf" stroke-opacity=".55"/><circle cx="15" cy="13" r="4" fill="#2dd4bf"><animate attributeName="opacity" values=".4;1;.4" dur="2.7s" begin="-2.4s" repeatCount="indefinite"/></circle><text x="28" y="17" font-size="12" fill="#e0e7ff">LangChain</text></g>
+<g transform="translate(190 236)"><rect width="84" height="26" rx="13" fill="#12173d" fill-opacity=".9" stroke="#818cf8" stroke-opacity=".55"/><circle cx="15" cy="13" r="4" fill="#818cf8"><animate attributeName="opacity" values=".4;1;.4" dur="3.4s" begin="-3.0s" repeatCount="indefinite"/></circle><text x="28" y="17" font-size="12" fill="#e0e7ff">pandas</text></g>
+<g transform="translate(284 236)"><rect width="76" height="26" rx="13" fill="#12173d" fill-opacity=".9" stroke="#38bdf8" stroke-opacity=".55"/><circle cx="15" cy="13" r="4" fill="#38bdf8"><animate attributeName="opacity" values=".4;1;.4" dur="4.1s" begin="-3.6s" repeatCount="indefinite"/></circle><text x="28" y="17" font-size="12" fill="#e0e7ff">NumPy</text></g>
 </g>
-<rect x=".5" y=".5" width="899" height="257" rx="18" fill="none" stroke="#4f56b8" stroke-opacity=".6"/>
+<rect x=".5" y=".5" width="899" height="293" rx="18" fill="none" stroke="#4f56b8" stroke-opacity=".6"/>
 </g>
 </svg>
