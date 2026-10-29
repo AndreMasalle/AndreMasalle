@@ -26,63 +26,63 @@
 <line x1="28" y1="58" x2="872" y2="58" stroke="#4f56b8" stroke-opacity=".6"/>
 <g transform="translate(28 82)">
 <rect width="414" height="142" rx="12" fill="#0a0d2a" fill-opacity=".85" stroke="#3b4290"><animate attributeName="stroke-opacity" values=".6;1;.6" dur="4s" repeatCount="indefinite"/></rect>
-<rect width="414" height="142" rx="12" fill="none" stroke="#fb7185" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="120.1 971.3" filter="url(#glw)"><animate attributeName="stroke-dashoffset" from="0" to="-1091.4" dur="7s" begin="-0.0s" repeatCount="indefinite"/></rect>
+<rect width="414" height="142" rx="12" fill="none" stroke="#60a5fa" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="120.1 971.3" filter="url(#glw)"><animate attributeName="stroke-dashoffset" from="0" to="-1091.4" dur="7s" begin="-0.0s" repeatCount="indefinite"/></rect>
+<text x="16" y="24" font-size="9" fill="#8089d6">• assignment-helpdesk-agent</text>
+<text x="16" y="56" font-size="17.0" font-weight="700" fill="#eef0ff">assignment-helpdesk-agent<tspan fill="#818cf8"><animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/> _</tspan></text>
+<text x="16" y="78" font-size="10" fill="#aab2f0">No description provided.</text>
+<rect x="16" y="90" width="60" height="18" rx="9" fill="#1b2150" stroke="#4f56b8" stroke-opacity=".7"/>
+<text x="46" y="102" font-size="9" fill="#c7cdfa" text-anchor="middle">Python</text>
+<text x="16" y="126" font-size="10" fill="#6b74b8">updated today</text>
+<g transform="translate(354 71) rotate(-90)">
+<circle r="26" fill="none" stroke="#1e2350" stroke-width="7"/>
+<circle r="26" fill="none" stroke="#60a5fa" stroke-width="7" stroke-linecap="round" stroke-dasharray="163.36" stroke-dashoffset="11.44"><animate attributeName="stroke-dashoffset" from="163.36" to="11.44" dur="1.6s" fill="freeze"/></circle>
+</g>
+<text x="354" y="74" font-size="10" font-weight="700" fill="#fff" text-anchor="middle">93%</text>
+</g>
+<g transform="translate(458 82)">
+<rect width="414" height="142" rx="12" fill="#0a0d2a" fill-opacity=".85" stroke="#3b4290"><animate attributeName="stroke-opacity" values=".6;1;.6" dur="5s" repeatCount="indefinite"/></rect>
+<rect width="414" height="142" rx="12" fill="none" stroke="#fb7185" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="120.1 971.3" filter="url(#glw)"><animate attributeName="stroke-dashoffset" from="0" to="-1091.4" dur="8s" begin="-2.3s" repeatCount="indefinite"/></rect>
 <text x="16" y="24" font-size="9" fill="#8089d6">• AndreMasalle.github.io</text>
 <text x="16" y="56" font-size="17.0" font-weight="700" fill="#eef0ff">AndreMasalle.github.io<tspan fill="#818cf8"><animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/> _</tspan></text>
 <text x="16" y="78" font-size="10" fill="#aab2f0">No description provided.</text>
 <rect x="16" y="90" width="48" height="18" rx="9" fill="#1b2150" stroke="#4f56b8" stroke-opacity=".7"/>
 <text x="40" y="102" font-size="9" fill="#c7cdfa" text-anchor="middle">HTML</text>
-<text x="16" y="126" font-size="10" fill="#6b74b8">updated 2d ago</text>
+<text x="16" y="126" font-size="10" fill="#6b74b8">updated 3d ago</text>
 <g transform="translate(354 71) rotate(-90)">
 <circle r="26" fill="none" stroke="#1e2350" stroke-width="7"/>
 <circle r="26" fill="none" stroke="#fb7185" stroke-width="7" stroke-linecap="round" stroke-dasharray="163.36" stroke-dashoffset="26.14"><animate attributeName="stroke-dashoffset" from="163.36" to="26.14" dur="1.6s" fill="freeze"/></circle>
 </g>
 <text x="354" y="74" font-size="10" font-weight="700" fill="#fff" text-anchor="middle">84%</text>
 </g>
-<g transform="translate(458 82)">
-<rect width="414" height="142" rx="12" fill="#0a0d2a" fill-opacity=".85" stroke="#3b4290"><animate attributeName="stroke-opacity" values=".6;1;.6" dur="5s" repeatCount="indefinite"/></rect>
-<rect width="414" height="142" rx="12" fill="none" stroke="#60a5fa" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="120.1 971.3" filter="url(#glw)"><animate attributeName="stroke-dashoffset" from="0" to="-1091.4" dur="8s" begin="-2.3s" repeatCount="indefinite"/></rect>
+<g transform="translate(28 240)">
+<rect width="414" height="142" rx="12" fill="#0a0d2a" fill-opacity=".85" stroke="#3b4290"><animate attributeName="stroke-opacity" values=".6;1;.6" dur="6s" repeatCount="indefinite"/></rect>
+<rect width="414" height="142" rx="12" fill="none" stroke="#60a5fa" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="120.1 971.3" filter="url(#glw)"><animate attributeName="stroke-dashoffset" from="0" to="-1091.4" dur="9s" begin="-4.6s" repeatCount="indefinite"/></rect>
 <text x="16" y="24" font-size="9" fill="#8089d6">• Cloud-Computing-Tasks</text>
 <text x="16" y="56" font-size="17.0" font-weight="700" fill="#eef0ff">Cloud-Computing-Tasks<tspan fill="#818cf8"><animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/> _</tspan></text>
 <text x="16" y="78" font-size="10" fill="#aab2f0">No description provided.</text>
 <rect x="16" y="90" width="60" height="18" rx="9" fill="#1b2150" stroke="#4f56b8" stroke-opacity=".7"/>
 <text x="46" y="102" font-size="9" fill="#c7cdfa" text-anchor="middle">Python</text>
-<text x="16" y="126" font-size="10" fill="#6b74b8">updated 3d ago</text>
+<text x="16" y="126" font-size="10" fill="#6b74b8">updated 4d ago</text>
 <g transform="translate(354 71) rotate(-90)">
 <circle r="26" fill="none" stroke="#1e2350" stroke-width="7"/>
 <circle r="26" fill="none" stroke="#60a5fa" stroke-width="7" stroke-linecap="round" stroke-dasharray="163.36" stroke-dashoffset="13.07"><animate attributeName="stroke-dashoffset" from="163.36" to="13.07" dur="1.6s" fill="freeze"/></circle>
 </g>
 <text x="354" y="74" font-size="10" font-weight="700" fill="#fff" text-anchor="middle">92%</text>
 </g>
-<g transform="translate(28 240)">
-<rect width="414" height="142" rx="12" fill="#0a0d2a" fill-opacity=".85" stroke="#3b4290"><animate attributeName="stroke-opacity" values=".6;1;.6" dur="6s" repeatCount="indefinite"/></rect>
-<rect width="414" height="142" rx="12" fill="none" stroke="#86efac" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="120.1 971.3" filter="url(#glw)"><animate attributeName="stroke-dashoffset" from="0" to="-1091.4" dur="9s" begin="-4.6s" repeatCount="indefinite"/></rect>
+<g transform="translate(458 240)">
+<rect width="414" height="142" rx="12" fill="#0a0d2a" fill-opacity=".85" stroke="#3b4290"><animate attributeName="stroke-opacity" values=".6;1;.6" dur="7s" repeatCount="indefinite"/></rect>
+<rect width="414" height="142" rx="12" fill="none" stroke="#86efac" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="120.1 971.3" filter="url(#glw)"><animate attributeName="stroke-dashoffset" from="0" to="-1091.4" dur="10s" begin="-6.9s" repeatCount="indefinite"/></rect>
 <text x="16" y="24" font-size="9" fill="#8089d6">• ONMIPA-Coach</text>
 <text x="16" y="56" font-size="17.0" font-weight="700" fill="#eef0ff">ONMIPA-Coach<tspan fill="#818cf8"><animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/> _</tspan></text>
 <text x="16" y="78" font-size="10" fill="#aab2f0">No description provided.</text>
 <rect x="16" y="90" width="54" height="18" rx="9" fill="#1b2150" stroke="#4f56b8" stroke-opacity=".7"/>
 <text x="43" y="102" font-size="9" fill="#c7cdfa" text-anchor="middle">Shell</text>
-<text x="16" y="126" font-size="10" fill="#6b74b8">updated 7d ago</text>
+<text x="16" y="126" font-size="10" fill="#6b74b8">updated 8d ago</text>
 <g transform="translate(354 71) rotate(-90)">
 <circle r="26" fill="none" stroke="#1e2350" stroke-width="7"/>
 <circle r="26" fill="none" stroke="#86efac" stroke-width="7" stroke-linecap="round" stroke-dasharray="163.36" stroke-dashoffset="70.25"><animate attributeName="stroke-dashoffset" from="163.36" to="70.25" dur="1.6s" fill="freeze"/></circle>
 </g>
 <text x="354" y="74" font-size="10" font-weight="700" fill="#fff" text-anchor="middle">57%</text>
-</g>
-<g transform="translate(458 240)">
-<rect width="414" height="142" rx="12" fill="#0a0d2a" fill-opacity=".85" stroke="#3b4290"><animate attributeName="stroke-opacity" values=".6;1;.6" dur="7s" repeatCount="indefinite"/></rect>
-<rect width="414" height="142" rx="12" fill="none" stroke="#94a3b8" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="120.1 971.3" filter="url(#glw)"><animate attributeName="stroke-dashoffset" from="0" to="-1091.4" dur="10s" begin="-6.9s" repeatCount="indefinite"/></rect>
-<text x="16" y="24" font-size="9" fill="#8089d6">• CONAN-Recommender-System</text>
-<text x="16" y="56" font-size="17.0" font-weight="700" fill="#eef0ff">CONAN-Recommender-System<tspan fill="#818cf8"><animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/> _</tspan></text>
-<text x="16" y="78" font-size="10" fill="#aab2f0">No description provided.</text>
-<rect x="16" y="90" width="92" height="18" rx="9" fill="#1b2150" stroke="#4f56b8" stroke-opacity=".7"/>
-<text x="62" y="102" font-size="9" fill="#c7cdfa" text-anchor="middle">No language</text>
-<text x="16" y="126" font-size="10" fill="#6b74b8">updated 14d ago</text>
-<g transform="translate(354 71) rotate(-90)">
-<circle r="26" fill="none" stroke="#1e2350" stroke-width="7"/>
-<circle r="26" fill="none" stroke="#94a3b8" stroke-width="7" stroke-linecap="round" stroke-dasharray="163.36" stroke-dashoffset="0.00"><animate attributeName="stroke-dashoffset" from="163.36" to="0.00" dur="1.6s" fill="freeze"/></circle>
-</g>
-<text x="354" y="74" font-size="10" font-weight="700" fill="#fff" text-anchor="middle">100%</text>
 </g>
 </g>
 <rect x=".5" y=".5" width="899" height="411" rx="18" fill="none" stroke="#4f56b8" stroke-opacity=".6"/>
